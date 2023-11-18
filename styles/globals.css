@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headers {
+  @apply px-[25px];
+}
+/* Navbar */
+.navbar,
+.subNav {
+  @apply flex items-center justify-between;
+}
+.logo_tabs {
+  @apply flex items-center justify-between;
+}
+.tabs,
+.subNav ul,
+.subNav div {
+  @apply flex items-center gap-4;
+}
+.tabs a li {
+  @apply cursor-pointer font-medium text-[18px];
+}
+.logo {
+  @apply w-[90px] h-[100px];
+}
+.Search_ico {
+  @apply bg-[#f3f5f5] cursor-pointer p-2 rounded-sm;
+}
+/* Navbbar */
+
+/* subNav */
+.subNav {
+  @apply bg-gradient-to-r from-indigo-500 to-green-500 px-[25px] py-[10px] rounded-md text-[#fff];
+}
+.subNav ul a li{
+  @apply text-[16px] font-semibold;
+}
+/* subNav */
