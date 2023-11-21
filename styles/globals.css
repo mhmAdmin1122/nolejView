@@ -114,3 +114,15 @@ footer {
   @apply m-0 text-justify p-0;
 }
 /* Post Cards */
+
+/* aboutUs-Box */
+.aboutUs-Box{
+  @apply px-[25px];
+}
+.aboutUs-Box h1{
+  @apply text-4xl font-bold py-5;
+}
+.aboutUs-Box p{
+  @apply text-base text-justify text-gray-500 font-medium py-5;
+}
+/* aboutUs-Box */

@@ -15,10 +15,10 @@ const SubNavbar = () => {
         <Link href={"/"}>
           <li>Home</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/page/about"}>
           <li>About Us</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/page/contact"}>
           <li>Contact Us</li>
         </Link>
       </ul>
