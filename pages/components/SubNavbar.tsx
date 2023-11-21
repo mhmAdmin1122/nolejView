@@ -6,6 +6,7 @@ import {
   FaPinterest,
   FaInstagram,
 } from "react-icons/fa";
+import SocialIcons from "./SocialIcons";
 
 const SubNavbar = () => {
   return (
@@ -21,34 +22,7 @@ const SubNavbar = () => {
           <li>Contact Us</li>
         </Link>
       </ul>
-      <div>
-        <Link
-          href={"https://www.facebook.com/NolijView?_rdc=1&_rdr"}
-          target="_blank"
-        >
-          <FaFacebook />
-        </Link>
-
-        <Link
-          href={"https://www.youtube.com/channel/UCjVoJypylxdToYxXXIy5-Bg"}
-          target="_blank"
-        >
-          <FaYoutube />
-        </Link>
-
-        <Link
-          href={
-            "https://www.pinterest.com/NViewEducater/?invite_code=331304daa7b845e98b169baade4a600e&sender=985655205855057484"
-          }
-          target="_blank"
-        >
-          <FaPinterest />
-        </Link>
-
-        <Link href={"https://www.instagram.com/nview362/"} target="_blank">
-          <FaInstagram />
-        </Link>
-      </div>
+      <SocialIcons clas="social-icons-subnav"/>
     </div>
   );
 };

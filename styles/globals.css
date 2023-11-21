@@ -5,6 +5,14 @@
 .headers {
   @apply px-[25px];
 }
+/* Home page */
+.grid-morebtn {
+  @apply flex items-center justify-end gap-3;
+}
+.grid-morebtn button {
+  @apply text-2xl bg-gray-200 text-green-600 p-2 rounded-md border border-gray-200 font-bold hover:bg-red-600 hover:text-[#fff] hover:border hover:border-red-600;
+}
+/* Home page index.tsx */
 /* Navbar */
 .navbar,
 .subNav {
@@ -19,7 +27,10 @@
   @apply flex items-center gap-4;
 }
 .tabs a li {
-  @apply cursor-pointer font-medium text-[18px];
+  @apply cursor-pointer font-medium text-[18px] hover:text-[#ff5b60] transition-all duration-1000;
+}
+.body_Card a h1 {
+  @apply hover:text-[#ff5b60];
 }
 .logo {
   @apply w-[90px] h-[100px];
@@ -33,7 +44,73 @@
 .subNav {
   @apply bg-gradient-to-r from-indigo-500 to-green-500 px-[25px] py-[10px] rounded-md text-[#fff];
 }
-.subNav ul a li{
+.subNav ul a li {
   @apply text-[16px] font-semibold;
 }
+.social-icons-subnav {
+  @apply text-xl font-bold;
+}
+.social-icons-subnav a {
+  @apply hover:text-[#353535];
+}
 /* subNav */
+
+/* Social-icons */
+.social-icons {
+  @apply flex flex-wrap justify-center text-2xl text-[#fff] gap-2;
+}
+.social-icons a {
+  @apply border-2 border-[#fff] rounded-full p-2;
+}
+.social-icons .FB:hover {
+  @apply bg-blue-500 border-2 border-blue-500;
+}
+.social-icons .YT:hover {
+  @apply bg-red-500 border-2 border-red-500;
+}
+.social-icons .PR:hover {
+  @apply bg-[#ff5e00] border-2 border-[#ff5e00];
+}
+.social-icons .INSTA:hover {
+  @apply bg-pink-500 border-2 border-pink-500;
+}
+/* Social-icons */
+
+/* Footer */
+footer {
+  @apply px-[25px] py-[10px] flex justify-between items-center mt-10 bg-gradient-to-r from-green-600 to-blue-600 w-full;
+}
+.about_Company {
+  @apply flex items-center w-[75%];
+}
+.footer-about-title {
+  @apply text-2xl font-bold text-[#fff];
+}
+.footer-desc {
+  @apply text-[#c0c0c0] text-base font-semibold w-[600px];
+}
+/* Footer */
+
+/* Post Cards */
+.list-design {
+  @apply flex items-start shadow-md shadow-gray-300 border-2 border-gray-100 bg-[#fff] overflow-hidden rounded-md;
+}
+.list-design .ImageBox{
+  @apply w-[30%];
+}
+.list-design .body_Card{
+  @apply w-[70%];
+}
+.list-design .body_Card a h1{
+  @apply font-bold text-lg pr-[14px];
+}
+.grid-design{
+  @apply block w-[280px] gap-[20px] border-2 border-gray-200 shadow-md shadow-gray-200 rounded-md overflow-hidden;
+}
+.grid-design .ImageBox, .grid-design .body_Card{
+  @apply w-full;
+}
+.grid-design .body_Card a h1{
+  @apply m-0 text-justify p-0;
+}
+/* Post Cards */
