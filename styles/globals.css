@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body{
+  @apply bg-[#e7feff];
+}
 .headers {
   @apply px-[25px];
 }
@@ -126,3 +128,27 @@ footer {
   @apply text-base text-justify text-gray-500 font-medium py-5;
 }
 /* aboutUs-Box */
+
+/* Contact Us page */
+.contact-page h1{
+  @apply text-center text-3xl font-bold pb-[12px] cursor-context-menu;
+}
+.form-and-Other_Contacts form {
+  @apply grid justify-center gap-2;
+}
+.form-and-Other_Contacts form label{
+  @apply text-xl font-bold;
+}
+.form-and-Other_Contacts form input{
+  @apply px-4 py-2 w-[400px] rounded-md outline-none;
+}
+.form-and-Other_Contacts form textarea{
+  @apply px-4 py-2 w-[400px] rounded-md outline-none;
+}
+.form-and-Other_Contacts form div button{
+  @apply px-4 py-2 flex w-full justify-center bg-blue-500 text-[#fff] my-2 font-bold text-xl rounded-md outline-none hover:bg-blue-600;
+}
+.email_phone div{
+  @apply flex items-center gap-3 my-2 bg-gray-300 px-4 py-2 rounded-md;
+}
+/* Contact Us page */
