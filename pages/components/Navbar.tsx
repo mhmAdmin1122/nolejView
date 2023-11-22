@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link href="/">
               <li>Tutorials</li>
             </Link>
-            <Link href="/">
+            <Link href="/page/disclaimer">
               <li>Disclaimer</li>
             </Link>
             <Link href="/">

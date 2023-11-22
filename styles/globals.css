@@ -152,3 +152,15 @@ footer {
   @apply flex items-center gap-3 my-2 bg-gray-300 px-4 py-2 rounded-md;
 }
 /* Contact Us page */
+
+/* Disclaimer */
+.disclaimer-box{
+  @apply px-[25px];
+}
+.disclaimer-box h1{
+  @apply text-4xl font-bold cursor-context-menu py-4;
+}
+.disclaimer-box p{
+  @apply text-gray-500 text-base font-medium text-justify;
+}
+/* Disclaimer */
